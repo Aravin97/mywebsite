@@ -1,0 +1,56 @@
+create directory using gitbash
+mkdir finalproject -> npm init -> npm install --save-dev parcel -> mkdir src
+
+vs code
+- touch index html & js in src folder
+- type=module in index.html (to use export/import)
+- div id=app
+- package json=> add "start" under script... (tell parcel to run things in index)
+- parcel functions as a bundler
+
+git bash
+- install react and react dom (react for internal work and react-dom for browser work)
+
+components
+- components are part of SPA
+- it should be independent, reusable, testable, etc
+- 1 component per file for components created in index.js
+- copy component code across and export it so that other file can require it
+- set module.exports so that other files can access to it as well
+
+index.js
+- require for react, reactDOM, app
+- it requires all code that react package exports save it into react variable
+- use const for require so that it doesn't change
+- let target = #app
+- set ReactDom render App, target => component to load, where to show it
+
+gitbash
+- npm runstart (check for error asw well)
+
+new gitbash
+-create .gitignore and add nodu_modules, dist, parcel-cache
+- update repository in github to undo if messed up
+
+#useState only when values are updating - ways to change mutable data
+#useEffect a way to make side effect happens
+
+style.css
+- header
+https://www.youtube.com/watch?v=Y6DwspK_wnM
+
+
+
+
+
+
+
+
+(i)weather
+- create component for weather
+
+(i)movie
+- working with apis using useEffect
+
+(iii)timespend
+- class 27.08.2021
