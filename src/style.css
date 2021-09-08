@@ -140,10 +140,15 @@ a:hover
     background-attachment: fixed;
 }
 .clockcontent{
-    top: 10%;
     text-align: center;
     color: blanchedalmond;
     width: 100%;
+}
+
+.clockcontent h31{
+    letter-spacing: 10px;
+    font-size: 4rem;
+    font-weight: bold;
 }
 
 .clockcontent h32{
@@ -160,7 +165,7 @@ a:hover
 
 
 /* countdown */
-#newyear
+/* #newyear
 {
     background: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)),url(img/countdown1.jpg);
     background-size: cover;
@@ -177,7 +182,7 @@ a:hover
     width: 100%;
     box-sizing: border-box;
     transform-style: inherit;  
-}
+} */
 /* countdown */
 
 /* movie slide */
@@ -203,6 +208,18 @@ a:hover
     transform-style: inherit;
 }
 /* movie slide */
+
+/* stopwatch */
+#cinema{
+    background: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)),url(img/movies4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;   
+}
+/* stopwatch */
+
 
 /* timespend */
 #last{

@@ -1,37 +1,49 @@
-// function Newyear(){
-//     var countDate = new Date('Jan 1, 2021 00:00:00').getTime();
-//     var now = newDate().getTime();
-//     let gap = countDate - now;
+const {useEffect, useRef, useState} = require("react");
 
-//     var second = 1000;
-//     var minute = second * 60;
-//     var hour = minute * 60;
-//     var day = hour * 24;
+function Countdown(){
+    const [timerDays, setTimerDays]         = useState('00');
+    const [timerHours, setTimerHours]       = useState('00');
+    const [timerMinutes, setTimerMinutes]   = useState('00');
+    const [timerSeconds, setTimerSeconds]   = useState('00');
 
-//     var d = Math.floor(gap/(day));
-//     var h = Math.floor((gap % (day)) / (hour));
-//     var m = Math.floor((gap & (hour)) / (minute));
-//     var s = Math.floor((gap % (minute)) / second);
+    let interval = useRef();
 
-//     document.getElementById('day').innerText = d;
-//     document.getElementById('hour').innerText = h;
-//     document.getElementById('minute').innerText = m;
-//     document.getElementById('second').innerText = s;
-//     }
-//     setInterval(function(){
-//         newYear();
-//     },1000)
-//     return(
-//         <div id="newyear" class="celebrate">
-//             <h41><span41>Countdown New Year</span41>2020</h41>
-//             <div class="count">
-//                 <div id="day">NA</div>
-//                 <div id="hour">NA</div>
-//                 <div id="minute">NA</div>
-//                 <div id="second">NA</div>
-//             </div>
-//         </div>
-//     )
-// }
+    const startTimer = () => {
+        const countdownDate = new Date('Jan 01, 2022 00:00:00').getTime();
 
-// module.exports = Newyear;
+        interval = setInterval(() => {
+            const now = new Date().getTime();
+            const diff = countdownDate - now;
+
+            const days      = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours     = Math.floor((diff % (1000 * 60 * 60 * 24) / (1000 * 60 * 60)));
+            const minutes   = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds   = Math.floor((diff % (1000 * 60)) / 1000);
+
+            if (diff < 0) {
+                clearInterval(interval.current);
+            } else {
+                setTimerDays(days);
+                setTimerHours(hours);
+                setTimerMinutes(minutes);
+                setTimerSeconds(seconds);
+            }
+        }, 1000);
+    };
+
+    useEffect(() => {
+        startTimer();
+        return () => {
+            clearInterval(interval.current);
+        };
+    });
+    return(
+        <div id="newyear" class="slide">
+            <h41>Hello</h41>
+            <br></br>
+            <h42>{timerDays} and {timerHours} {timerMinutes} {timerSeconds}</h42>       
+        </div>
+    );
+}
+
+module.exports = Countdown;

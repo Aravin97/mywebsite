@@ -12,8 +12,7 @@ function App(){
             <Intro/>
             <Clock/>
             <Movies/>
-            {/* <Countdown/> */}
-            {/* <Moviesearch/> */}
+            <Countdown/>
             <div id="slidethree" class="slide">
             </div>
             <div id="slidefour" class="slide">
