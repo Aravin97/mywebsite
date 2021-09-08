@@ -129,8 +129,45 @@ a:hover
 }
 /* first slide */
 
-/* second slide */
-/* second slide */
+/* clock */
+#timing
+{
+    background: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)),url(img/clock4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+.time1
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 25% 0%;
+    width: 100%;
+}
+.time1 h31{
+    color: white;
+    letter-spacing: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.time1 h32{
+    border: 5px double yellow;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.time1 h33{
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.time1 h34{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* clock */
+
+
 
 /* movie slide */
 #movie{
@@ -155,12 +192,12 @@ a:hover
 }
 /* movie slide */
 
-/* time slide */
+/* timespend */
 #last{
     text-align: center;
 }
 
-.time{
+.time2{
     background-color: black;
     width: 100%;
     position: absolute;
@@ -168,4 +205,4 @@ a:hover
     text-align: justify;
     color: #fff;
 }
-/* time slide */
+/* timespend */

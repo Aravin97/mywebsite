@@ -1,17 +1,25 @@
-const {useState, useState} = require("react");
+const { useState } = require("react");
 
-function Clock() {
-  const [clockState, setClockState] = useState();
-
-  useEffect(() => {
-    setInterval(() => {
-      const date = new Date();
-      setClockState(date.toLocaleTimeString());
-    }, 1000);
-  }, []);
+function Clock(){
+  let time = new Date().toLocaleTimeString();
+  let day = new Date().toLocaleDateString();
+  const [Time1, setTime1] = useState(time);
+  const updateTime = () => {
+    time = new Date().toLocaleTimeString();
+    setTime1(time);
+  }
+  setInterval(updateTime, 1000)
   return(
-      <h6>{clockState}</h6>
+    <div id="timing" class="time1">
+      <h31>Digital Clock & Date</h31>
+      <br></br>
+      <h32>{time}</h32>
+      <br></br>
+      <h33>{day}</h33>
+      <br></br>
+      <h34>This digital time and date will change according to Malaysian local time and date</h34>
+    </div>
   );
 }
 
-module.exports = Clock;
+module.exports = Clock
