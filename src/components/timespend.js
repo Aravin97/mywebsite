@@ -10,7 +10,7 @@ function Timespend(){
     }, [time]);
 
     return (
-        <div id="last" class="time2">
+        <div id="last" class="timespends">
             <p3>You have been on this page for {time} minutes</p3>
         </div>
     );

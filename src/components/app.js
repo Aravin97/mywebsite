@@ -1,26 +1,24 @@
-const Headtab = require("./headtab");
-const Intro = require("./intro");
-const Clock = require("./liveclock");
+const Headtab   = require("./headtab");
+const Intro     = require("./intro");
+const Clock     = require("./liveclock");
+const Countdown = require("./countdown");
+const Movies    = require("./movies");
 const Timespend = require("./timespend");
 
 function App(){
     return(
         <main>
-            <Headtab />
+            <Headtab/>
             <Intro/>
-            <Clock />
-            <div class="container">
-            <h0><span>New Year Countdown</span></h0>
-            </div>
-            <div class="countdown">
-            <div id="climate" class="weathers">
-            </div>
-            </div>
+            <Clock/>
+            <Movies/>
+            {/* <Countdown/> */}
+            {/* <Moviesearch/> */}
             <div id="slidethree" class="slide">
             </div>
             <div id="slidefour" class="slide">
             </div>
-            <Timespend />
+            <Timespend/>
         </main>
     );
 }

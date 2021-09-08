@@ -10,14 +10,12 @@ function Clock(){
   }
   setInterval(updateTime, 1000)
   return(
-    <div id="timing" class="time1">
+    <div id="clock" class="slide">
+      <div class="clockcontent">
       <h31>Digital Clock & Date</h31>
-      <br></br>
-      <h32>{time}</h32>
-      <br></br>
-      <h33>{day}</h33>
-      <br></br>
-      <h34>This digital time and date will change according to Malaysian local time and date</h34>
+      <br></br><h32>{time}<br></br>{day}</h32>
+      <br></br><h33>This digital clock and date will change according to Malaysian Timezone</h33>
+      </div>
     </div>
   );
 }

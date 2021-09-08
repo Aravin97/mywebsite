@@ -1,6 +1,6 @@
 const { useState } = require("react");
 
-function Moviesearch(){
+function Movies(){
     const[title, setTitle] = useState("");
     const[data, setData] = useState(null);
 
@@ -23,6 +23,7 @@ function Moviesearch(){
         });
     }
     return(
+        <div id="cinema" class="theatre">
         <div>
             <form onSubmit={search}>
                 <input
@@ -35,7 +36,8 @@ function Moviesearch(){
             </form>
             <p4>{dataMarkup}</p4>
         </div>
+        </div>
     );
 }
 
-module.exports = Moviesearch;
+module.exports = Movies;

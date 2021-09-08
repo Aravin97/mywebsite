@@ -130,7 +130,7 @@ a:hover
 /* first slide */
 
 /* clock */
-#timing
+#clock
 {
     background: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)),url(img/clock4.jpg);
     background-size: cover;
@@ -139,38 +139,49 @@ a:hover
     display: table;
     background-attachment: fixed;
 }
-
-.time1
-{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.clockcontent{
+    top: 10%;
     text-align: center;
-    padding: 25% 0%;
+    color: blanchedalmond;
     width: 100%;
 }
-.time1 h31{
-    color: white;
-    letter-spacing: 5px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.time1 h32{
-    border: 5px double yellow;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.time1 h33{
-    color: aqua;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.time1 h34{
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+
+.clockcontent h32{
+    color: #fff;
+    background: #10101E;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100px;
+    padding: 10px 10px;
+    border: 3px solid #2E94E3;
+    border-radius: 5px;
+    display: flex;
 }
 /* clock */
 
 
+/* countdown */
+#newyear
+{
+    background: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)),url(img/countdown1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+.celebrate{
+    text-align: center;
+    color: whitesmoke;
+    padding: 25% 10%;
+    width: 100%;
+    box-sizing: border-box;
+    transform-style: inherit;  
+}
+/* countdown */
 
 /* movie slide */
-#movie{
+#cinema{
     background: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)),url(img/movies4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -179,30 +190,24 @@ a:hover
     background-attachment: fixed;   
 }
 
-.msearch
+.theatre
 {
-    text-align: center;
+    color: blanchedalmond;
+    text-align: justify;
     position: relative;
     padding: 25% 10%;
     min-height: 100%;
     width: 100%;
     box-sizing: border-box;
     box-shadow: 0 -1px 10px rgba(0,0,0, .7);
-    transform-style: inherit;  
+    transform-style: inherit;
 }
 /* movie slide */
 
 /* timespend */
 #last{
+    background: black;
     text-align: center;
-}
-
-.time2{
-    background-color: black;
-    width: 100%;
-    position: absolute;
-    transform: translateY(-50%);
-    text-align: justify;
-    color: #fff;
+    color: blanchedalmond;
 }
 /* timespend */
