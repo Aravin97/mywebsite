@@ -1,20 +1,21 @@
 const Headtab   = require("./headtab");
 const Intro     = require("./intro");
 const Clock     = require("./liveclock");
-const Countdown = require("./countdown");
 const Movies    = require("./movies");
+const Countdown = require("./countdown");
+const Quiz = require("./quiz");
 const Timespend = require("./timespend");
+
 
 function App(){
     return(
         <main>
             <Headtab/>
-            <Intro/>
-            <Clock/>
-            <Movies/>
-            <Countdown/>
-            <div id="slidethree" class="slide">
-            </div>
+            {/* <Intro/>
+            <Clock/> */}
+            {/* <Movies/> */}
+            {/* <Countdown/> */}
+            <Quiz/>
             <div id="slidefour" class="slide">
             </div>
             <Timespend/>

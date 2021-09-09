@@ -1,22 +1,41 @@
-create directory using gitbash
-mkdir finalproject -> npm init -> npm install --save-dev parcel -> mkdir src
+Necessary Deliverables:
+- A production ready web application, SPA, hosted live on the web.
+- A *new git repository hosted on Github- where the codebase is maintained.
+- Ideally, there will be a README.md file in your GitHub repository that explains:
+    : An overview of your idea
+    : A walkthrough of the code
+    : Explain a technical hurdle (something you struggled with)
+    : Explain some things you learned (something you enjoyed)
+    : If you used technology that we haven't covered in class, provide an overview of that
+    : Where next? What will you add?
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+OVERVIEW
+- the idea of this web application is to showcase stuff that I can do (even though need mr jack and google's help) with using JS
+- this web application will contain things that I have covered in class and also by myself with the help of instructors and online sources as well
+- i decided to show application that i really feel comfortable with, so my sincere apologize if i didn't meet expectation of mr jack for this project
+- also, all the codes are coded by myself eventhough I can just copy paste from previous class or anonymous github account
+- any advise/feedback are highly appreciated that can be send to my email: aravina20@gmail.com .thank you
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+gitbash
+mkdir mywebsite -> npm init -> npm install --save-dev parcel -> npm install react react-dom
+* react for internal work and react-dom for browser work
+* parcel functions as a bundler
+
 
 vs code
-- touch index html & js in src folder
 - type=module in index.html (to use export/import)
 - div id=app
 - package json=> add "start" under script... (tell parcel to run things in index)
-- parcel functions as a bundler
 
-git bash
-- install react and react dom (react for internal work and react-dom for browser work)
 
 components
-- components are part of SPA
-- it should be independent, reusable, testable, etc
-- 1 component per file for components created in index.js
+- are part of SPA. should be independent, reusable, testable, etc
 - copy component code across and export it so that other file can require it
 - set module.exports so that other files can access to it as well
+
 
 index.js
 - require for react, reactDOM, app
@@ -25,32 +44,42 @@ index.js
 - let target = #app
 - set ReactDom render App, target => component to load, where to show it
 
-gitbash
-- npm runstart (check for error asw well)
 
 new gitbash
--create .gitignore and add nodu_modules, dist, parcel-cache
+-create .gitignore and add nodu_modules, dist, parcel-cache, .env
 - update repository in github to undo if messed up
+- git add . => git commit -m "message" => git push => git status (to check for any unupdated file)
+
+
 
 #useState only when values are updating - ways to change mutable data
 #useEffect a way to make side effect happens
 
+
+
+
+
 style.css
-- header
+parallax scrolling effect
+https://www.youtube.com/watch?v=3Fs2TyZkA4Q
+
+
+header
 https://www.youtube.com/watch?v=Y6DwspK_wnM
 
 
+liveclock
+https://www.youtube.com/watch?v=xQOeltgbuTM
+https://www.youtube.com/watch?v=IF9t3LAtXB8
 
 
+countdown newyear
+https://www.youtube.com/watch?v=ZVOGPvo08zM
 
 
+quiz app
+https://www.youtube.com/watch?v=Lya-qYiDqIA
 
-
-(i)weather
-- create component for weather
-
-(i)movie
-- working with apis using useEffect
-
-(iii)timespend
+timespend
 - class 27.08.2021
+
