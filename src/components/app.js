@@ -10,17 +10,12 @@ const Timespend = require("./timespend");
 function App(){
     return(
         <main>
-            <Headtab/>
-            {/* <Intro/>
+            {/* <Headtab/>
+            <Intro/>
             <Clock/> */}
             {/* <Movies/> */}
-            <Countdown/>
-            {/* <div id="football" class="slide">
-                <Quiz/>
-                </div> */}
-                <Quiz/>
-            <div id="slidefour" class="slide">
-            </div>
+            {/* <Countdown/> */}
+            {/* <Quiz/> */}
             <Timespend/>
         </main>
     );

@@ -39,9 +39,22 @@ function Countdown(){
     });
     return(
         <div id="newyear" class="slide">
-            <h41>Hello</h41>
+            <div class="celebrate">
+            <h41>New Year Countdown</h41>
             <br></br>
-            <h42>{timerDays} {timerHours} {timerMinutes} {timerSeconds}</h42>       
+            <h42>2022</h42>
+            <br></br>
+            <div class="celebrate2">
+                <div class="cdays">
+                    <h43>{timerDays}<br></br>Days</h43>
+                    <h43>{timerHours}<br></br>Hours</h43>
+                    <h43>{timerMinutes}<br></br>Minutes</h43>
+                    <h43>{timerSeconds}<br></br>Seconds</h43>
+                <br></br>
+                <h44>“Here’s a toast to the future, a toast to the past, and a toast to our friends, far and near. The past a bright dream; may our friends remain faithful and clear”</h44>
+                </div>
+            </div>
+            </div>
         </div>
     );
 }

@@ -213,8 +213,8 @@ ul
 {
   color: whitesmoke;
     /* text-align: justify; */
-    position: relative;
-    padding: 25% 10%;
+  position: relative;
+  padding: 25% 10%;
     /* min-height: 100%; */
 }
 /* movie slide */
@@ -222,22 +222,66 @@ ul
 /* countdown */
 #newyear
 {
-    background: linear-gradient(rgba(0,0,0,0.3) ,rgba(0,0,0,0.3)),url(img/countdown7.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: table;
-    background-attachment: fixed;
+  background: linear-gradient(rgba(0,0,0,0.3) ,rgba(0,0,0,0.3)),url(img/countdown7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
 }
 
-/* .celebrate{
-    text-align: center;
-    color: whitesmoke;
-    padding: 25% 10%;
-    width: 100%;
-    box-sizing: border-box;
-    transform-style: inherit;  
-} */ 
+.celebrate
+{
+  text-align: center;
+  padding-top: 40px;
+  position: relative;
+}
+
+.celebrate2
+{
+  display: inline-flex
+}
+.celebrate h41
+{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: white;
+}
+.celebrate h42
+{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 70px;
+  font-weight: bold;
+  font-style: oblique;
+  display: inline-flex;
+  margin-top: 10px;
+  color: wheat;
+}
+.celebrate h43
+{
+  padding: 20px;
+  position: relative;
+  font-size: 45px;
+  margin-top: 90px;
+  text-align: center;
+  display: inline-flex;
+  color: wheat;
+  background-color: rgb(38, 2, 41);
+  border: 5px solid rgb(25, 2, 73);
+  border-radius: 8px;
+  width: auto;
+}
+.celebrate h44{
+  display: inline-flex;
+  padding: 3px;
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 15px;
+  margin-top: 150px;
+  color: rgb(255, 255, 255);
+}
 /* countdown */
 
 /* stopwatch */
@@ -245,7 +289,8 @@ ul
 
 
 /* timespend */
-#last{
+#last
+{
     background: black;
     text-align: center;
     color: blanchedalmond;
