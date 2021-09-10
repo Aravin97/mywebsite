@@ -6,14 +6,13 @@ const Countdown = require("./countdown");
 const Quiz = require("./quiz");
 const Timespend = require("./timespend");
 
-
 function App(){
     return(
         <main>
-            {/* <Headtab/>
-            <Intro/>
+            <Headtab/>
+            {/* <Intro/>
             <Clock/> */}
-            {/* <Movies/> */}
+            <Movies/>
             {/* <Countdown/> */}
             {/* <Quiz/> */}
             <Timespend/>

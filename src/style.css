@@ -211,11 +211,15 @@ ul
 
 .theatre
 {
+  margin-top: 300px;
   color: whitesmoke;
-    /* text-align: justify; */
-  position: relative;
-  padding: 25% 10%;
+  /* position: relative; */
     /* min-height: 100%; */
+}
+
+#submit1{
+  background-color: red;
+  color: red;
 }
 /* movie slide */
 

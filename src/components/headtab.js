@@ -5,7 +5,7 @@ function Headtab(){
         <nav>
             <ul>
                 <button class="button1">Home</button>
-                <button class="button2">About</button>
+                <button href="last" class="button2">About</button>
                 <button class="button3">Contact</button>
             </ul>
         </nav>
