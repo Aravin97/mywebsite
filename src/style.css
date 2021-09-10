@@ -126,62 +126,76 @@ ul
 }
 .content
 {
+  margin-left: 40px;
   width: 100%;
   position: absolute;
-  top: 40%;
-  transform: translateY(-50%);
+  /* top: 10px; */
+  /* transform: translateY(-50%); */
   text-align: justify;
-  color: #fff;
 }
 .content h2
 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
-    margin-top: 80px;
+  margin-top: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  margin-top: 25%;
+  color: #fff;
 }
 .content p1
 {
-    letter-spacing: 1px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
-    margin: 20px auto;
-    font-weight: 100;
-    line-height: 25px;
-    color: snow;
+  letter-spacing: 1px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 25px;
+  color: snow;
 }
-/* first slide */
+/* intro slide */
 
 /* clock */
 #clock
 {
-    background: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)),url(img/clock4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: table;
-    background-attachment: fixed;
-}
-.clockcontent{
-    text-align: center;
-    color: blanchedalmond;
-    width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)),url(img/clock4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* display: table; */
+  background-attachment: fixed;
 }
 
-.clockcontent h31{
-    letter-spacing: 10px;
-    font-size: 4rem;
-    font-weight: bold;
+.clockcontent{
+  padding-top: 60px;
+  text-align: center;
+}
+
+.clockcontent h31
+{
+  border-style: dotted;
+  border-radius: 20px;
+  padding: 8px;
+  /* border-radius: 1px solid white; */
+  color: wheat;
+  letter-spacing: 10px;
+  font-size: 65px;
+  font-weight: bold;
 }
 
 .clockcontent h32{
-    color: #fff;
-    background: #10101E;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 100px;
-    padding: 10px 10px;
-    border: 3px solid #2E94E3;
-    border-radius: 5px;
-    display: flex;
+  margin-top: 100px;
+  margin-bottom: 160px;
+  display: inline-flex;
+  padding: 30px;
+  font-size: 70px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: whitesmoke;
+  background: #10101E;
+  border: 3px solid #2E94E3;
+  border-radius: 8px;
+  width: 350px;
+}
+
+.clockcontent h33{
+  color: whitesmoke;
 }
 /* clock */
 
@@ -204,7 +218,7 @@ ul
     width: 100%;
     box-sizing: border-box;
     transform-style: inherit;  
-} */ */
+} */ 
 /* countdown */
 
 /* movie slide */
