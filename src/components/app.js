@@ -11,10 +11,10 @@ function App(){
     return(
         <main>
             <Headtab/>
-            <Intro/>
-            <Clock/>
-            <Movies/>
-            {/* <Countdown/>
+            {/* <Intro/>
+            <Clock/> */}
+            {/* <Movies/> */}
+            <Countdown/>
             {/* <div id="football" class="slide">
                 <Quiz/>
                 </div> */}

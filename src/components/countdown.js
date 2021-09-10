@@ -41,7 +41,7 @@ function Countdown(){
         <div id="newyear" class="slide">
             <h41>Hello</h41>
             <br></br>
-            <h42>{timerDays} and {timerHours} {timerMinutes} {timerSeconds}</h42>       
+            <h42>{timerDays} {timerHours} {timerMinutes} {timerSeconds}</h42>       
         </div>
     );
 }

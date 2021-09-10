@@ -182,7 +182,7 @@ ul
 
 .clockcontent h32{
   margin-top: 100px;
-  margin-bottom: 160px;
+  margin-bottom: 150px;
   display: inline-flex;
   padding: 30px;
   font-size: 70px;
@@ -199,12 +199,31 @@ ul
 }
 /* clock */
 
+/* movie slide */
+#cinema{
+    background: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)),url(img/movies4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;   
+}
+
+.theatre
+{
+  color: whitesmoke;
+    /* text-align: justify; */
+    position: relative;
+    padding: 25% 10%;
+    /* min-height: 100%; */
+}
+/* movie slide */
 
 /* countdown */
 #newyear
 {
-    background: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)),url(img/countdown2.jpg);
-    background-size: auto;
+    background: linear-gradient(rgba(0,0,0,0.3) ,rgba(0,0,0,0.3)),url(img/countdown7.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: table;
@@ -221,39 +240,7 @@ ul
 } */ 
 /* countdown */
 
-/* movie slide */
-#cinema{
-    background: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)),url(img/movies4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: table;
-    background-attachment: fixed;   
-}
-
-.theatre
-{
-    color: blanchedalmond;
-    text-align: justify;
-    position: relative;
-    padding: 25% 10%;
-    min-height: 100%;
-    width: 100%;
-    box-sizing: border-box;
-    box-shadow: 0 -1px 10px rgba(0,0,0, .7);
-    transform-style: inherit;
-}
-/* movie slide */
-
 /* stopwatch */
-/* #cinema{
-    background: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)),url(img/movies4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: table;
-    background-attachment: fixed;   
-} */
 /* stopwatch */
 
 

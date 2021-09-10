@@ -23,7 +23,8 @@ function Movies(){
         });
     }
     return(
-        <div id="cinema" class="theatre">
+        <div id="cinema" class="slide">
+        <div id="cinema1" class="theatre">
         <div>
             <form onSubmit={search}>
                 <input
@@ -35,6 +36,7 @@ function Movies(){
             <input type="submit" value="Search!" />
             </form>
             <p4>{dataMarkup}</p4>
+        </div>
         </div>
         </div>
     );
