@@ -4,9 +4,9 @@ function Headtab(){
         <h1>my<span>Website</span>!</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <button class="button1">Home</button>
+                <button class="button2">About</button>
+                <button class="button3">Contact</button>
             </ul>
         </nav>
         </header>
