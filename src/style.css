@@ -211,16 +211,46 @@ ul
 
 .theatre
 {
+  text-align: center;
   margin-top: 300px;
   color: whitesmoke;
   /* position: relative; */
     /* min-height: 100%; */
 }
 
-#submit1{
-  background-color: red;
-  color: red;
+input{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
 }
+input[type="text1"]{
+  background: #fff;
+  width: 250px;
+  height: 25px;
+  border: none;
+  outline: none;
+  padding: 0.35px;
+  border-radius: 25px 0 0 25px;
+}
+input[type="submit1"]{
+  position: relative;
+  left: -5px;
+  border-radius: 0 25px 25px 0;
+  width: 150px;
+  height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #ffc107;
+  color: #0b042e;
+}
+input[type="submit1"]:hover{
+  background: #ff5722;
+  color: white;
+}
+
 /* movie slide */
 
 /* countdown */
@@ -302,24 +332,53 @@ ul
 /* timespend */
 
 
-/* football quiz
+/* football */
 #football{
-
-#football{
-  /* background: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)),url(img/movies4.jpg);
+  background: linear-gradient(rgba(0,0,0,0.3) ,rgba(0,0,0,0.3)),url(img/quiz3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: table;
-  background-attachment: fixed;    */
+  background-attachment: fixed;
+}
 
-/* #football{
-  background-image: url(img/quiz1.jpg);
-  background-color: red;
-} */
-.app{
+.soccer{
   text-align: center;
-  background-color: #258d4a;
+}
+
+h61{
+  letter-spacing: 10px;
+  display: inline-flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  margin-top: 30px;
+  /* transform: translate(-50%, -50%); */
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 1px;
+  color: white;
+  text-transform: uppercase;
+}
+
+p61{
+  letter-spacing: 2px;
+  font-weight: bold;
+  display: inline-flex;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#soccer{
+  margin-left: 410px;
+  margin-top: 80px;
+}
+
+.quiz{
+  /* display: flex;
+  margin-top: 90px; */
+  text-align: center;
+  background-color: #16803b;
   width: 450px;
   min-height: 200px;
   height: min-content;
@@ -344,6 +403,7 @@ ul
 
 .question-count span
 {
+  text-decoration: underline;
   color: whitesmoke;
   margin-bottom: 20px;
   font-size: 20px;
@@ -353,8 +413,12 @@ ul
 
 .question-text
 {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 2px;
   font-weight: bold;
   color: black;
@@ -370,7 +434,7 @@ ul
 }
 
 button{
-  width: 90%;
+  width: auto;
   font-size: 14px;
   color: #ffffff;
   background-color: #252d4a;
@@ -379,7 +443,7 @@ button{
   padding: 3px;
   /* justify-content: flex-start; */
   align-items: center;
-  border: 3px solid #234668;
+  border: 2px solid #ffffff;
   cursor: pointer;
 }
 
@@ -390,29 +454,33 @@ button{
 .incorrect{
   background-color: red;
 }
+button{
+  transition: ease-out 0.7s;
+}
 
-button:hover{
+button:hover
+{
   background-color:#555e7d;
-  color: wheat;
+  box-shadow: inset 200px 0 0 0 black;
+  cursor: pointer;
+  color: white;
 }
 
 button:focus{
   outline: none;
 }
 
-button svg{
+/* button svg{
   margin-right: 5px;
-}
+} */
 
-/* /* 
-  .timer-text {
-    background: rgb(230, 153, 12);
-    padding: 15px;
-    margin-top: 20px;
-    margin-right: 20px;
-    border: 5px solid rgb(255, 189, 67);
-    border-radius: 15px;
-    text-align: center;
-  } */  
-/*   
- */
+ /* .timer-text {
+  background: rgb(230, 153, 12);
+  padding: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 5px solid rgb(255, 189, 67);
+  border-radius: 15px;
+  text-align: center;
+} */
+

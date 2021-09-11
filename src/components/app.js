@@ -10,11 +10,11 @@ function App(){
     return(
         <main>
             <Headtab/>
-            {/* <Intro/>
-            <Clock/> */}
-            <Movies/>
-            {/* <Countdown/> */}
-            {/* <Quiz/> */}
+            <Intro/>
+            <Clock/>
+            {/* <Movies/> */}
+            <Countdown/>
+            <Quiz/>
             <Timespend/>
         </main>
     );

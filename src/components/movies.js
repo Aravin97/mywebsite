@@ -28,7 +28,7 @@ function Movies(){
         <div>
             <form onSubmit={search}>
                 <input
-                type="text"
+                type="text1"
                 placeholder="Type here..."
                 value={title}
                 onChange={updateTitle}
