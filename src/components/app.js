@@ -5,6 +5,7 @@ const Movies    = require("./movies");
 const Countdown = require("./countdown");
 const Quiz = require("./quiz");
 const Timespend = require("./timespend");
+const Quote = require("./quote");
 
 function App(){
     return(
@@ -15,6 +16,7 @@ function App(){
             {/* <Movies/> */}
             <Countdown/>
             <Quiz/>
+            <Quote/>
             <Timespend/>
         </main>
     );
