@@ -9,33 +9,29 @@ Necessary Deliverables:
     : If you used technology that we haven't covered in class, provide an overview of that
     : Where next? What will you add?
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 OVERVIEW
-- the idea of this web application is to showcase stuff that I can do (even though need mr jack and google's help) with using JS
+- the idea of this web application is to showcase stuff that I can do (not independently) with using JS
 - this web application will contain things that I have covered in class and also by myself with the help of instructors and online sources as well
 - i decided to show application that i really feel comfortable with, so my sincere apologize if i didn't meet expectation of mr jack for this project
-- also, all the codes are coded by myself eventhough I can just copy paste from previous class or anonymous github account
+- also, all the codes are coded by myself or code along while watching tutorial videos online. strictly no copy paste except the easy or known part (haha)
 - any advise/feedback are highly appreciated that can be send to my email: aravina20@gmail.com .thank you
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 gitbash
 mkdir mywebsite -> npm init -> npm install --save-dev parcel -> npm install react react-dom
 * react for internal work and react-dom for browser work
 * parcel functions as a bundler
 
-
 vs code
 - type=module in index.html (to use export/import)
 - div id=app
 - package json=> add "start" under script... (tell parcel to run things in index)
 
-
 components
 - are part of SPA. should be independent, reusable, testable, etc
 - copy component code across and export it so that other file can require it
 - set module.exports so that other files can access to it as well
-
 
 index.js
 - require for react, reactDOM, app
@@ -44,42 +40,91 @@ index.js
 - let target = #app
 - set ReactDom render App, target => component to load, where to show it
 
-
 new gitbash
 -create .gitignore and add nodu_modules, dist, parcel-cache, .env
 - update repository in github to undo if messed up
 - git add . => git commit -m "message" => git push => git status (to check for any unupdated file)
 
+#useState   only when values are updating - ways to change mutable data
+#useEffect  a way to make side effect happens
+#useRef     built-in React hook that accepts one argument as the initial value and returns a reference (used in countdown app)
 
 
-#useState only when values are updating - ways to change mutable data
-#useEffect a way to make side effect happens
+What i've done so far...
+
+Scroll page
+- students are advised to maka a single page application. it is very hard for me to compress every single app in between 100vw and 100vh
+- so i followed scroll/parallax effect with the help of online videos
+- the steps are pretty straight forward and not complicated
+
+Headtab
+- didnt use props for destructuring assignment as taught in class, instead just created buttons to link to another page, but yet to solve it
+- pretty cool to play with the transition colours whenever moved the pointer over it
+- at this stage, i've learned css a little, especially padding and margin part
+
+Intro
+- a very very short brief as i dint have any idea on wat should i put on front landing page
+- to keep it simple, i've given a short intro, no special effects used
+- to prevent it look lame, i decided to set fancy background images for every app
+- also learned to adjust the gradients pf background so that it doesnt appears brighter than the text on it, but still need more practice on it
+
+Liveclock
+- this idea popped in my mind as i've done "timespend on page" in class
+- i got the clue that i can pull out the date and time from new Date() function, but unsure on how to implement it
+- online videos helped me to finish it
+
+Weather
+- this one is for the api part, and also have done this before in class, but using react js is far more difficult i guess
+- i'm still not satisfied or uncomfortable with the usage of api in react js
+
+Movies
+- had code along during the class, but again this react js part is very difficult for me
+- probably won't put it for display, as there are unfinished part (if couldnt finish by due date)
+
+Countdown
+- logically thinking, numbers works very well with react (clock, stopwatch, timespend on page)
+- so, searched for online videos for the tutorials
+- used useRef, yet to discover ore react hooks woth perfect example
+
+Quiz
+- an idea to make sure viewers can have any kind of activity on the page. not good with chat app, games. so decided to have a short quiz as it seems a little easy
+- planning for animation to take place like the ball kicked once answer option is selected, but need more time and knowledge to execute it. maybe after this will try
+- this part could have been done with a lot of creativities, but lack of time and knowledge
+
+Quote
+- creates a random quote everytime page is reloaded or when the button is clicked
+- pretty easy to do it
+
+Timespend
+- had done before in class
+- just adjust the number slightly so that it shows time spend on page in minutes instead of seconds
 
 
+*the end
+
+- it is impossible for me to do alone and i need a lot of practices as well to not make no mistake
+- thank you to boss mr jack, assistant instructors, and all owner of video contents on youtube
+- i have pasted the links of videos that i have watched to do certain parts, hope will be helpful to any of my frens reading this
 
 
-
-style.css
 parallax scrolling effect
 https://www.youtube.com/watch?v=3Fs2TyZkA4Q
 
-
 header
 https://www.youtube.com/watch?v=Y6DwspK_wnM
-
 
 liveclock
 https://www.youtube.com/watch?v=xQOeltgbuTM
 https://www.youtube.com/watch?v=IF9t3LAtXB8
 
+weather
+https://www.youtube.com/watch?v=GuA0_Z1llYU
 
 countdown newyear
 https://www.youtube.com/watch?v=ZVOGPvo08zM
-
 
 quiz app
 https://www.youtube.com/watch?v=Lya-qYiDqIA
 
 timespend
 - class 27.08.2021
-

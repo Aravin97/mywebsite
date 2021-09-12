@@ -1,23 +1,24 @@
-const Headtab   = require("./headtab");
-const Intro     = require("./intro");
-const Clock     = require("./liveclock");
-const Movies    = require("./movies");
-const Countdown = require("./countdown");
-const Quiz = require("./quiz");
-const Weather = require("./weather");
-const Timespend = require("./timespend");
-const Quote = require("./quote");
+const Headtab   = require("./bheadtab");
+const Intro     = require("./cintro");
+const Clock     = require("./dclock");
+const Weather = require("./eweather");
+const Movies    = require("./fmovies");
+const Countdown = require("./gcountdown");
+const Quiz = require("./hquiz");
+const Quote = require("./iquote");
+const Timespend = require("./ztimespend");
+
 
 function App(){
     return(
         <main>
             <Headtab/>
-            {/* <Intro/> */}
-            {/* <Clock/> */}
-            {/* <Movies/> */}
-            {/* <Countdown/> */}
-            {/* <Quiz/> */}
+            <Intro/>
+            <Clock/>
             <Weather/>
+            {/* <Movies/> */}
+            <Countdown/>
+            <Quiz/>
             <Quote/>
             <Timespend/>
         </main>
