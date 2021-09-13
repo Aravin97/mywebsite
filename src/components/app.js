@@ -19,7 +19,7 @@ function App(){
             {/* <Movies/> */}
             <Countdown/>
             <Quiz/>
-            <Quote/>
+            {/* <Quote/> */}
             <Timespend/>
         </main>
     );
