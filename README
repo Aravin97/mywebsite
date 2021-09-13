@@ -14,7 +14,7 @@ OVERVIEW
 - the idea of this web application is to showcase stuff that I can do (not independently) with using JS
 - this web application will contain things that I have covered in class and also by myself with the help of instructors and online sources as well
 - i decided to show application that i really feel comfortable with, so my sincere apologize if i didn't meet expectation of mr jack for this project
-- also, all the codes are coded by myself or code along while watching tutorial videos online. strictly no copy paste except the easy or known part (haha)
+- also, all the codes are coded by myself or code along while watching tutorial videos online.
 - any advise/feedback are highly appreciated that can be send to my email: aravina20@gmail.com .thank you
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -50,54 +50,45 @@ new gitbash
 #useRef     built-in React hook that accepts one argument as the initial value and returns a reference (used in countdown app)
 
 
-What i've done so far...
+Components...
 
 Scroll page
-- students are advised to maka a single page application. it is very hard for me to compress every single app in between 100vw and 100vh
-- so i followed scroll/parallax effect with the help of online videos
-- the steps are pretty straight forward and not complicated
+- students are advised to maka a single page application
+- followed scroll/parallax effect with the help of online videos
+- set the frame at 100vw and 100vh (viewport and viewport height)
 
 Headtab
-- didnt use props for destructuring assignment as taught in class, instead just created buttons to link to another page, but yet to solve it
-- pretty cool to play with the transition colours whenever moved the pointer over it
-- at this stage, i've learned css a little, especially padding and margin part
+- didnt use props for destructuring assignment, instead just created buttons to link to another page, but yet to solve it
+- learned a lot bout css stuff, especially padding and margins
 
 Intro
-- a very very short brief as i dint have any idea on wat should i put on front landing page
-- to keep it simple, i've given a short intro, no special effects used
-- to prevent it look lame, i decided to set fancy background images for every app
-- also learned to adjust the gradients pf background so that it doesnt appears brighter than the text on it, but still need more practice on it
+- a very very short brief with plain background
+- to prevent it look lame, i decided to set nice background images for every app
+- gradients used so that it doesnt appears brighter than the text on it
 
 Liveclock
-- this idea popped in my mind as i've done "timespend on page" in class
-- i got the clue that i can pull out the date and time from new Date() function, but unsure on how to implement it
-- online videos helped me to finish it
+- pull out the date and time from new Date() function, but unsure on how to implement it
+- online videos helped to finish it
 
 Weather
-- this one is for the api part, and also have done this before in class, but using react js is far more difficult i guess
-- i'm still not satisfied or uncomfortable with the usage of api in react js
+- still not satisfied or uncomfortable with the usage of api in react js, need more practise with diff example
 
 Movies
-- had code along during the class, but again this react js part is very difficult for me
+- had code along during the class, but again this react js part is very difficult
 - probably won't put it for display, as there are unfinished part (if couldnt finish by due date)
 
 Countdown
-- logically thinking, numbers works very well with react (clock, stopwatch, timespend on page)
-- so, searched for online videos for the tutorials
-- used useRef, yet to discover ore react hooks woth perfect example
+- used useRef, yet to discover more react hooks
 
 Quiz
-- an idea to make sure viewers can have any kind of activity on the page. not good with chat app, games. so decided to have a short quiz as it seems a little easy
-- planning for animation to take place like the ball kicked once answer option is selected, but need more time and knowledge to execute it. maybe after this will try
-- this part could have been done with a lot of creativities, but lack of time and knowledge
+- not good enough to create chat app or game, so went on with quiz
 
 Quote
 - creates a random quote everytime page is reloaded or when the button is clicked
-- pretty easy to do it
 
 Timespend
 - had done before in class
-- just adjust the number slightly so that it shows time spend on page in minutes instead of seconds
+- adjust the number slightly so that it shows time spend on page in minutes instead of seconds
 
 
 *the end
